@@ -1,0 +1,89 @@
+.footer {
+    width: 100%;
+    height: 460px;
+    background-color: #141414;
+    padding: 70px;
+}
+
+.language__select {
+	width: 230px;
+	height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    color: $light-grey;
+    background: transparent;
+	border: 1px solid $light-grey;
+    margin: 0 30px 30px 0;
+}
+
+.google_play__image,
+.app_store__image   {
+    width: 95px;
+    height: 36px;
+    border: 1px solid $light-grey;
+    border-radius: 3px;
+}
+
+.footer__applications {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.footer__menu__link {
+    color: $beige;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer__menu__link:first-child {
+    color: $light-grey;
+}
+
+.footer__bottom {
+    display: flex;
+   justify-content: center;
+}
+
+.footer__profiles__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.footer__sign-us {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+
+    &__link {
+        color: $light-grey;  
+    }
+}
+
+.footer__socials {
+    width: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   
+    &__facebook,
+    &__twitter,
+    &__instagram,
+    &__snapchat {
+        width: 27px;
+        height: 27px;
+    }
+}
+
+.footer__copyright {
+    width: 450px;
+    color: $light-grey;  
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,150 @@
+.ukraine__top__song__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    display: block;
+}
+
+.explicit_content {
+    position: relative;
+
+    &:after {
+    content: ('E');
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: red;
+    background-color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    @include f-center  ();
+    }
+}
+
+.ukraine__top__item {
+    border-bottom: 1px solid #d6d4d4;
+}
+
+.ukraine__top__song__place {
+    @include f-center ();
+    width: 60px;
+    height: 60px;
+    margin-right: -15px;
+}
+
+.song__place__number {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.ukraine__top__song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ukraine__top__song__track {  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 250px;
+}
+
+.song__name {
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.song__perfomer {
+    margin: 0;
+    color: $light-grey;
+}
+
+.button_view_more {
+    color: white;
+    background-color: $blue;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.different__tops__title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.discovery__top {
+    width: 320px;
+    height: 144px;
+    background: url('../images/chart-discovery.png') no-repeat;
+    background-size: contain;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+    &__title {
+        color: white;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        color: white;
+    }
+}
+
+.country__top {
+    width: 320px;
+    height: 144px;
+    background: url('../images/chart-country.png') no-repeat;
+    background-size: contain;
+    padding: 15px;
+    margin-bottom: 20px; 
+
+    &__title {
+        color: #2255ff;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        color: white;
+    }
+}
+
+.global__top {
+    width: 320px;
+    height: 144px;
+    background: url('../images/chart-global.png') no-repeat;
+    background-size: contain;
+    padding: 15px;
+
+    &__title {
+        color:  $light-blue;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        color: white;
+    }
+}
+
